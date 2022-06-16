@@ -4,8 +4,8 @@ global.mods = []
 global.prems = ['6281215710461'] 
 
 //=============『 Info Owner 』============== //
-global.nameowner = 'XzyuuNaii'
-global.nameowner2 = 'ZxyuuRomm'
+global.nameowner = 'ZxyuuRomm'
+global.nameowner2 = 'XzyuuNaii'
 global.numberowner = '6281322667077'
 global.numberowner2 = '6281215710461'
 global.instagram = 'https://instagram.com/Naiichnz'
