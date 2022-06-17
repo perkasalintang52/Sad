@@ -280,23 +280,7 @@ const fdoc = {
    }
    }
    }
-/*const fakey = (teks) => {
-            const.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": `Join Jadi Krinj😅`,"body": `Join Bot's Official GC`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./media/IMG-20220615-WA0030.jpg`),"sourceUrl": "https://chat.whatsapp.com/ItgtoArOdVD46P7S9cA179"}}}, { quoted: m})
-        }
-const ftextt = {
-   key: { 
-   fromMe: false,
-   participant: `0@s.whatsapp.net`, ...(from ? 
-   { remoteJid: "6289643739077-1613049930@g.us" } : {}) 
-},
-message: { 
-   "extendedTextMessage": {
-   "text":"hallo bang",
-   "title": `Hmm`,
-   'jpegThumbnail': log0
-   }
-   } 
-   }*\
+
 //━━━━━━━━[ BAGIAN MENU ]━━━━━━━━//
 if (teks == '404') {
 let menuu = `┌────「 *${namebot}* 」───⬣
@@ -320,7 +304,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
             description: menuu,
             buttonText: 'LIST MENU',
             listType: 1,
-            footerText: "Zxyuu Rom -- Xzyuu Naii",
+            footerText: "Zxyuu Romm -- Xzyuu Naii",
             mtype: 'listMessage',
             sections: [
               {
