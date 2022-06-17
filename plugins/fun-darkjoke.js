@@ -1,5 +1,5 @@
 let handler = async (m, { conn }) => {
-let rest = 'https://api.zacros.my.id/randomimg/darkjokes'
+let rest = 'https://caliphapi.com/api/darkjokes?apikey=LQzZsX3D'
     conn.sendButtonImg(m.chat, rest, 'Dark? 🤨', wm2, 'NEXT', '.darkjokes', m)
 }
 handler.help = ['darkjokes']
