@@ -433,7 +433,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "rowId": `${_p}? textpro`
                 }
                   ],
-                "title": "KLIK AJG🗿"
+                "title": "LIST MENU NYA"
               }
             ], "contextInfo": {
               "stanzaId": m.key.id,
