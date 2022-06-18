@@ -1,21 +1,9 @@
-let handler = async (m, { conn }) => {
-let caption = `_*-----[ *OWNER* ]-----*_
+let handler = async(m, { conn }) => {
+conn.sendContact(m.chat, numberowner, nameowner, m)
+conn.sendContact(m.chat, numberowner2, nameowner2, m)
+}
+handler.help = ['owner', 'creator']
+handler.tags = ['info']
+handler.command = /^(owner|creator)$/i
 
-》 https://wa.me/6281322667077 (Romli)
-》 https://wa.me/6281215710461 (Naii)
-
-📮Note: 
- 》 Owner Tidak Menerima Save
- 》 Dilarang chat Aneh"
- 》 Dilarang Spam or telpon
-
-_Dah segitu Ae_`
-
-
-conn.sendButton( m.chat, caption, `©️ 2022 ZxyuuBotz`, `Omke Banh🖒`, `.menu`, m)
-
-       }
-       
-handler.customPrefix = /^(owner|creator)/i
-handler.command = new RegExp
 module.exports = handler
