@@ -8,7 +8,9 @@ https://wa.me/6281215710462 (Naii)
 •》Chat aneh" ga bakal di tanggapi
 •》Dilarang Spam or telpon
 _Segitu Ajah_
+
 conn.sendButton( m.chat, caption, `©️ 2022 ZxyuuBotz`, `Omke Banh🖒`, `thanks`, m)
+
 }
 handler.help = ['owner', 'creator']
 handler.tags = ['info']
