@@ -302,7 +302,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
         listMessage: {
             title: `${ucapan()} ${name}`,
             description: menuu,
-            buttonText: 'LIST MENU',
+            buttonText: 'Klik Ajg🗿',
             listType: 1,
             footerText: "Zxyuu Romm -- Xzyuu Naii",
             mtype: 'listMessage',
