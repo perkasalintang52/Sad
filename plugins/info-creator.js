@@ -9,7 +9,7 @@ let caption = `_*-----[ *OWNER* ]-----*_
  》 Dilarang chat Aneh"
  》 Dilarang Spam or telpon
 
-_Dah segitu Ae_
+_Dah segitu Ae_`
 
 
 conn.sendButton( m.chat, caption, `©️ 2022 ZxyuuBotz`, `Omke Banh🖒`, `.menu`, m)
