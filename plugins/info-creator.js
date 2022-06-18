@@ -7,7 +7,7 @@ https://wa.me/6281215710462 (Naii)
 •》Owner tidak menerima save
 •》Chat aneh" ga bakal di tanggapi
 •》Dilarang Spam or telpon
-_Segitu Ajah_
+_Segitu Ajah_`
 
 conn.sendButton( m.chat, caption, `©️ 2022 ZxyuuBotz`, `Omke Banh🖒`, `thanks`, m)
 
