@@ -9,7 +9,16 @@ let handler = async(m, { conn }) => {
               conn.sendContact(m.chat, numberowner2, nameowner2, { contexInfo: { forwardingScore: 99999, isForwarded: true })
         ]*/
 	await delay(100)
-  return conn.sendMessage(m.chat, { text: `*Hallo kak* @${await m.sender.split('@')[0]}, *itu nomor ownerku,kalo ada kepentingan bisa dichat^_^*`, mentions: [m.sender] }, { quoted: conn.p[id][0] })
+  return conn.sendMessage(m.chat, { text: `*Hallo kak* @${await m.sender.split('@')[0]},
+-----[Owner]-----
+https://wa.me/6281322667077 (Romli)
+https://wa.me/6281215710461 (Naii)
+
+Note:
+》 Dilarang chat aneh"
+》 Dilarang Telpon or Vc
+》 Owner tidak menerima Save
+_Dah Segitu ajah_`, mentions: [m.sender] }, { quoted: conn.p[id][0] })
   await delay(100)
   return delete conn.p[id]
 }
