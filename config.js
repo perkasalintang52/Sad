@@ -66,7 +66,6 @@ global.APIs = { // API Prefix
   lolhuman: 'https://api.lolhuman.xyz',
   LeysCoder: 'https://leyscoders-api.herokuapp.com',
   rey: 'https://server-api-rey.herokuapp.com'
-  zxyuu: 'https://yog-apikey.herokuapp.com'
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
