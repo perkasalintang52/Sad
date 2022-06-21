@@ -754,7 +754,18 @@ global.dfail = (type, m, conn) => {
         private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
         admin: '*_Lu Admin?_*',
         botAdmin: '_*Jadiin Gwehj Admin Dulu*_',
-        unreg: 'Silahkan daftar untuk menggunakan Bot Ini dengan cara mengetik: ',
+        unreg: '
+*Silahkan daftar untuk menggunakan Bot Ini dengan cara mengetik:* #daftar nama.umur\n\nContoh:\n#daftar Naii.16
+
+
+📮Note:
+》•Dilarang Spam Bot
+》•Dilarang telpon or vc bot
+-------[Owner]-------
+》• https://wa.me/6281322667077 (*Romli*)
+》• https://wa.me/6281215710461 (*Naii*)
+
+_Kalo Ada bug atau eror silahkan hubugin owner_',
         restrict: 'Fitur ini di *disable*!'
     }[type]
     if (msg) return m.reply(msg)
