@@ -14,7 +14,7 @@ Hai ${ye} Lagi Nyari Sc Ya?
 Sc Ori By Hizer Official :
 https://youtu.be/AXPzjQ5jxx8
 
-Sc Ori By Romli:
+Sc Recode By Romli:
 https://wa.me/6281322667077?text=Bang+Bagi+Sc+🗿
 
 _ZxyuuBotz_`
