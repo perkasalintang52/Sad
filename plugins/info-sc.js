@@ -15,7 +15,7 @@ Sc Ori By Hizer Official :
 https://youtu.be/AXPzjQ5jxx8
 
 Sc Recode By Romli:
-https://wa.me/6281322667077?text=Bang+Bagi+Sc+🗿
+https://wa.me/6281322667077?text=Bang+Bagi+Sc
 
 _ZxyuuBotz_`
 conn.sendBut(m.chat, esce, wm3, 'Thanks', 'thanks', m) 
