@@ -754,7 +754,7 @@ global.dfail = (type, m, conn) => {
         private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
         admin: '*_Lu Admin?_*',
         botAdmin: '_*Jadiin Gwehj Admin Dulu*_',
-        unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Zxyuu.16*',
+        unreg: 'Silahkan daftar untuk menggunakan Bot Ini dengan cara mengetik: ',
         restrict: 'Fitur ini di *disable*!'
     }[type]
     if (msg) return m.reply(msg)
