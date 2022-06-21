@@ -5,6 +5,7 @@ let nyenye = `https://api.lolhuman.xyz/api/textprome/${command}?apikey=${lolkey}
 }
 handler.help = ['blackpink', 'neon', 'greenneon', 'futureneon', 'sandwriting', 'sandsummer', 'sandengraved', 'metaldark', 'neonlight', 'holographic', 'text1917', 'minion', 'deluxesilver', 'newyearcard', 'bloodfrosted', 'hallowen', 'fireworksparkle', 'natureleaves', 'bokeh', 'toxic', 'strawberry', 'box3d', 'roadwarning', 'breakwall', 'icecold', 'luxury', 'cloud', 'summersand', 'horrorblood', 'thunder', 'magma', 'impressiveglitch', 'harrypotter', 'foggywindow', 'watercolor', 'wonderfulgrafitti'] 
 handler.tags = ['textpro']
+handler.premium = true
 handler.command = /^(blackpink|neon|greenneon|futureneon|sandwriting|sandsummer|sandengraved|metaldark|neonlight|holographic|text1917|minion|deluxesilver|newyearcard|bloodfrosted|hallowen|fireworksparkle|natureleaves|bokeh|toxic|strawberry|box3d|roadwarning|breakwall|icecold|luxury|cloud|summersand|horrorblood|thunder|magma|impressiveglitch|harrypotter|foggywindow|watercolor|wonderfulgrafitti)$/i
 //buatan hyzer, jgn hapus atuh 😊
 module.exports = handler
