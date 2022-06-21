@@ -415,84 +415,29 @@ module.exports = {
                 let chat = global.db.data.chats[m.chat]
                 if (typeof chat !== 'object') global.db.data.chats[m.chat] = {}
                 if (chat) {
-                    if (!('name' in chat)) chat.name = this.getName(m.chat)
-                    if (!('closeGroup' in chat)) chat.closeGroup = false
-                    if (!isNumber(chat.add)) chat.add = 0
                     if (!('isBanned' in chat)) chat.isBanned = false
                     if (!('welcome' in chat)) chat.welcome = true
-                    if (!('detect' in chat)) chat.detect = true
+                    if (!('detect' in chat)) chat.detect = false
                     if (!('sWelcome' in chat)) chat.sWelcome = ''
                     if (!('sBye' in chat)) chat.sBye = ''
-                    if (!('sPromote' in chat)) chat.sPromote = true
-                    if (!('sDemote' in chat)) chat.sDemote = true
-                    if (!('desc' in chat)) chat.desc = true
-                    if (!('descUpdate' in chat)) chat.descUpdate = true
-                    if (!('stiker' in chat)) chat.stiker = true
-                    if (!('delete' in chat)) chat.delete = false
+                    if (!('sPromote' in chat)) chat.sPromote = ''
+                    if (!('sDemote' in chat)) chat.sDemote = ''
+                    if (!('delete' in chat)) chat.delete = true
                     if (!('antiLink' in chat)) chat.antiLink = true
-                    if (!isNumber(chat.expired)) chat.expired = 0
-                    if (!('antiBadword' in chat)) chat.antiBadword = true
-                    if (!('antispam' in chat)) chat.antispam = true
-                    if (!('antitroli' in chat)) chat.antitroli = true
-                    if (!('antivirtex' in chat)) chat.antivirtex = false
-                    if (!('viewonce' in chat)) chat.viewonce = true
-                    if (!('nsfw' in chat)) chat.nsfw = false
-                    if (!('simi' in chat)) chat.simi = false
-                    if (!('clear' in chat)) chat.clear = false
-                    if (!isNumber(chat.cleartime)) chat.clearTime = 0 
+                    if (!('viewonce' in chat)) chat.viewonce = false
+                    if (!('antiToxic' in chat)) chat.antiToxic = false
                 } else global.db.data.chats[m.chat] = {
-                    name: this.getName(m.chat),
-                    closeGroup: false,
-                    add: 0,
                     isBanned: false,
                     welcome: true,
-                    detect: true,
+                    detect: false,
                     sWelcome: '',
                     sBye: '',
-                    sPromote: true,
-                    sDemote: true,
-                    desc: true,
-                    descUpdate: true,
-                    stiker: true,
-                    delete: false,
-                    antiLink: true,
-                    expired: 0,
-                    antiBadword: true,
-                    antispam: true,
-                    antitroli: true,
-                    antivirtex: false,
-                    viewonce: true,
-                    nsfw: false,
-                    simi: false,
-                    clear: false,
-                    clearTime: 0
-                }
-                let settings = global.db.data.settings[this.user.jid]
-                if (typeof settings !== 'object') global.db.data.settings[this.user.jid] = {}
-                if (settings) {
-                    if (!'tag' in settings) settings.tag = true
-                    if (!'self' in settings) settings.self = false
-                    if (!'anon' in settings) settings.anon = true
-                    if (!'anticall' in settings) settings.anticall = true
-                    if (!'backup' in settings) settings.backup = false
-                    if (!isNumber(settings.backupDB)) settings.backupDB = 0
-                    if (!'groupOnly' in settings) settings.groupOnly = false
-                    if (!'jadibot' in settings) settings.jadibot = false
-                    if (!isNumber(settings.status)) settings.status = 0
-                    if (!'epe' in settings) settings.epe = true
-                    if (!'game' in settings) settings.game = true
-                } else global.db.data.settings[this.user.jid] = {
-                    tag: true,
-                    self: false,
-                    anon: true,
-                    anticall: true,
-                    backup: false,
-                    backupDB: 0,
-                    groupOnly: false,
-                    jadibot: false,
-                    status: 0,
-                    epe: true,
-                    game: true,
+                    sPromote: '',
+                    sDemote: '',
+                    delete: true,
+                    antiLink: false,
+                    viewonce: false,
+                    antiToxic: true,
                 }
             } catch (e) {
                 console.error(e)
@@ -756,28 +701,17 @@ module.exports = {
                 if (chat.welcome) {
                     let groupMetadata = await this.groupMetadata(id) || (conn.chats[id] || {}).metadata
                     for (let user of participants) {
-                       let pp = 'https://telegra.ph/file/73cd756ddab1df07934e5.jpg'
+                       let pp = './src/IMG-20220618-WA0129.jpg'
                         try {
                             pp = await this.profilePictureUrl(user, 'image')
                         } catch (e) {
                         } finally {
-                            text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Yah,si Beban Masuk Grup @user').replace('@subject', groupMetadata.subject).replace('@desc', groupMetadata.desc.toString()) :
-                                (chat.sBye || this.bye || conn.bye || 'Sip, Beban Berkurang @user!')).replace('@user', '@' + user.split('@')[0])
-                                this.sendButtonImg(id, pp, text, "©️ ZxyuuRomm", "Okee", "nani", null)
+                            text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Yah,si Beban Masuk Grup').replace('@subject', groupMetadata.subject).replace('@desc', groupMetadata.desc.toString()) :
+                                (chat.sBye || this.bye || conn.bye || 'Dahlahh :('))
+                                this.sendButtonImg(id, pp, text, "Group Message", "Menunya Ngab🗿", ".menu", null)
                                 }
                     }
                 }
-                break
-            case 'promote':
-                text = (chat.sPromote || this.spromote || conn.spromote || '@user ```is now Admin```')
-            case 'demote':
-                if (!text) text = (chat.sDemote || this.sdemote || conn.sdemote || '@user ```is no longer Admin```')
-                text = text.replace('@user', '@' + participants[0].split('@')[0])
-                if (chat.detect) this.sendMessage(id, text, MessageType.extendedText, {
-                    contextInfo: {
-                        mentionedJid: this.parseMention(text)
-                    }
-                })
                 break
             case 'promote':
                 text = (chat.sPromote || this.spromote || conn.spromote || '@user ```is now Admin```')
