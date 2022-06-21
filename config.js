@@ -1,7 +1,7 @@
 //=============『 Utama 』================== //
 global.owner = ['6281322667077', '6281215710461'] 
 global.mods = [] 
-global.prems = ['6281215710461'] 
+global.prems = ['6281215710461', '6281322667077'] 
 
 //=============『 Info Owner 』============== //
 global.nameowner = 'ZxyuuRomm'
@@ -25,9 +25,9 @@ global.fotonya1 = 'https://telegra.ph/file/0d347c20fabc63d78b60a.jpg' //ganti ja
 global.fotonya2 = 'https://telegra.ph/file/0d347c20fabc63d78b60a.jpg' //ini juga ganti 
 global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
-global.wm = 'Z X Y U U - Md'
+global.wm = 'Z X Y U U B O T Z - Md'
 global.watermark = wm
-global.wm2 = '                     「 Xzyuu Naii⁩ 」'
+global.wm2 = '                       「 Xzyuu Naii⁩ 」'
 global.wm3 = '⫹⫺ Zxyuu Botz'
 global.htki = '––––––『' 
 global.htka = '』––––––'
@@ -38,8 +38,8 @@ global.eror = '_*Server Error*_'
 global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
 global.stiker_wait = 'Stiker sedang dibuat'
-global.packname = '2022'
-global.author = '© Zxyuu ° Xzyuu'
+global.packname = ''
+global.author = '© 2022 Zxyuu - Xzyuu'
 
 //=============『 Apikey 』================== //
 global.APIs = { // API Prefix
