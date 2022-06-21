@@ -13,6 +13,8 @@ Hai ${ye} Lagi Nyari Sc Ya?
 
 Nih Link Sc Nya Dibawah :
 https://youtu.be/AXPzjQ5jxx8
+Atau cht:
+https://wa.me/6281322667077?text=Bang+Bagi+ESCE🗿
 
 _*Jangan Lupa Di Subscribe*_`
 conn.sendBut(m.chat, esce, wm3, 'Thanks', 'thanks', m) 
