@@ -754,9 +754,7 @@ global.dfail = (type, m, conn) => {
         private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
         admin: '*_Lu Admin?_*',
         botAdmin: '_*Jadiin Gwehj Admin Dulu*_',
-        unreg: '
-*Silahkan daftar untuk menggunakan Bot Ini dengan cara mengetik:* #daftar nama.umur\n\nContoh:\n#daftar Naii.16
-
+        unreg: '*Silahkan daftar untuk menggunakan Fitur Ini dengan cara mengetik:* #daftar nama.umur\n\nContoh:\n#daftar Naii.16
 
 📮Note:
 》•Dilarang Spam Bot
