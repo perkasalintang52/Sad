@@ -304,7 +304,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
             description: menuu,
             buttonText: 'KLIK AJG🗿',
             listType: 1,
-            footerText: "Zxyuu Romm -- Xzyuu Naii ]",
+            footerText: "Zxyuu Romm -- Xzyuu Naii",
             mtype: 'listMessage',
             sections: [
               {
