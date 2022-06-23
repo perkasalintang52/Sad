@@ -24,7 +24,7 @@ const sentMsg  = await conn.sendMessage(
         }
     }
 )
-await conn.sendBut(m.chat, "*----------[ OWNER ]----------*\n\n• https://wa.me/6281322667077 (Romli)\n• https://wa.me/6281215710461 (Naii)\n\n📮Note:\n》 Chat Main' Ga bakal di tanggapi\n》 Dilarang Telpon Or vc\n\n_Dah Segitu ae_", 'Naiichnz><', 'Group Official Zxyuu Romm', '.gcbot', sentMsg)}
+await conn.send2But(m.chat, "*----------[ OWNER ]----------*\n\n• https://wa.me/6281322667077 (Romli)\n• https://wa.me/6281215710461 (Naii)\n\n📮Note:\n》 Chat Main' Ga bakal di tanggapi\n》 Dilarang Telpon Or vc\n\n_Dah Segitu ae_", 'Naiichnz><', 'Group Zxyuu Romm', '.gcbot', 'Menunya', '.menu', sentMsg)}
 handler.help = ['owner', 'creator']
 handler.tags = ['info']
 
