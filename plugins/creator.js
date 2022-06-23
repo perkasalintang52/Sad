@@ -1,9 +1,9 @@
 const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = require('@adiwajshing/baileys')
 let handler = async (m, {conn}) => {
-/*const vcard = `BEGIN:VCARD
+const vcard = `BEGIN:VCARD
 VERSION:3.0
 N:Sy;Bot;;;
-FN: ZxyuuRomm
+FN: Zxyuu Romm
 item.ORG: ytta!
 item1.TEL;waid=6281322667077:6281215710461@s.whatsapp.net
 item1.X-ABLabel:Sibuk 
@@ -14,7 +14,7 @@ item3.X-ABADR:ac
 item3.X-ABLabel:📍 LOCATION
 item4.URL:https://github.com/romlisuhanda
 item4.X-ABLabel:Website
-END:VCARD`*/
+END:VCARD`
 const sentMsg  = await conn.sendMessage(
     m.chat,
     { 
@@ -24,7 +24,7 @@ const sentMsg  = await conn.sendMessage(
         }
     }
 )
-await conn.reply(m.chat, "----------[ *OWNER* ]----------\n\n• https://wa.me/6281322667077 (Romli)\n• https://wa.me/6281215710461 (Naii)\n\n📮Note:\n》 Chat Main' Ga bakal di tanggapi\n》 Dilarang Telpon Or vc\n\n_Dah Segitu ae_", sentMsg)}
+await conn.reply(m.chat, "*----------[ OWNER ]----------*\n\n• https://wa.me/6281322667077 (Romli)\n• https://wa.me/6281215710461 (Naii)\n\n📮Note:\n》 Chat Main' Ga bakal di tanggapi\n》 Dilarang Telpon Or vc\n\n_Dah Segitu ae_", sentMsg)}
 handler.help = ['owner', 'creator']
 handler.tags = ['info']
 
