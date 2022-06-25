@@ -10,7 +10,7 @@ let handler = async (m, { conn, isROwner, text }) => {
     m.reply(`Mengirim Broadcast Ke ${anu.length} Chat, Waktu Selesai ${anu.length * 0.5 } detik`)
     for (let i of anu) {
     await delay(500)
-    conn.send2ButtonImg(i, romli, zxyuu, `${pesan}`, Created By romli, 'OWNER', '.owner', 'MENU', '.menu all', null).catch(_ => _)
+    conn.send2ButtonImg(i, romli, zxyuu, `${pesan}`, 'Created By romli', 'OWNER', '.owner', 'MENU', '.menu all', null).catch(_ => _)
     }
   m.reply(`Sukses Mengirim Broadcast Ke ${anu.length} Group`)
 }
