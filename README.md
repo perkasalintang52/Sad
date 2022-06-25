@@ -9,9 +9,9 @@
 >
 </div>
 <p align="center">
-  <a href="https://github.com/romlisuhanda"><img title="GitHub" src="https://img.shields.io/badge/Github-ZxyuuRomm-brightgreen" /></a>
-  <a href="httts://instagram.com/zexyds_"><img title="Group" src="https://img.shields.io/badge/Group%20ZxyuuRomm-Masuk-brightgreen.svg?style=for-the-badge&logo=whatsapp" /></a>
-  <a href="https://youtube.com/channel/UCBtUyjfIclyuu7yXKS0dAMw"><img title="Youtube" src="https://img.shields.io/badge/Youtube-Hyzerr.svg?style=for-the-badge&logo=youtube" /></a>
+  <a href="https://github.com/romlisuhanda"><img title="GitHub" src="https://img.shields.io/badge/Github-ZxyuuRomm-brightgreen.svg?style=for-the-badge&logo=github" /></a>
+  <a href="https://chat.whatsapp.com/K9vsKm2jDga8ATZEcfpEGA"><img title="Group" src="https://img.shields.io/badge/Group%20ZxyuuRomm-Masuk-brightgreen.svg?style=for-the-badge&logo=whatsapp" /></a>
+  <a href="https://youtube.com/channel/UCBtUyjfIclyuu7yXKS0dAMw"><img title="Whatsapp" src="https://img.shields.io/badge/whatsapp-Owner-red.svg?style=for-the-badge&logo=whatsapp" /></a>
   <a href="https://api-hyzerr.herokuapp.com"><img title="Rest Api" src="https://img.shields.io/badge/Rest Api-Hyzerr.svg?style=for-the-badge&logo=twitter" /></a>
   <h4 align="center">
   <a
