@@ -21,17 +21,17 @@ global.web = 'https://zxyuuromm2.romlisuhanda040.repl.co/' //ubah jadi website l
 global.price1 = '1 bulan = 10.000\n2 Minggu 7.000\n1 Minggu 5.000'
 
 //=======『 Tampilan Dan Lainnya 』============//
-global.fotonya1 = 'https://telegra.ph/file/fec4992551f793c4b2960.jpg' //ganti jadi foto bot mu
-global.fotonya2 = 'https://telegra.ph/file/fec4992551f793c4b2960.jpg' //ini juga ganti 
+global.fotonya1 = 'https://telegra.ph/file/a233720fe5119e6275ae7.jpg' //ganti jadi foto bot mu
+global.fotonya2 = 'https://telegra.ph/file/a233720fe5119e6275ae7.jpg' //ini juga ganti 
 global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
 global.wm = 'Z X Y U U B O T Z - Md'
 global.watermark = wm
-global.wm2 = '                             「 Xzyuu Naii⁩ 」'
+global.wm2 = '                               「 Xzyuu Naii⁩ 」'
 global.wm3 = '⫹⫺ Zxyuu Botz'
 global.htki = '––––––『' 
 global.htka = '』––––––'
-global.media = 'https://telegra.ph/file/fec4992551f793c4b2960.jpg'
+global.media = 'https://telegra.ph/file/a233720fe5119e6275ae7.jpg'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.wait = '_*tunggu sedang di proses...*_'
 global.eror = '_*Server Error*_'
