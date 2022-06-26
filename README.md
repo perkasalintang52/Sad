@@ -52,11 +52,6 @@ WhatsApp Bot Multi Device
 ----|----
 [Ilman](https://github.com/ilmanhdyt) | [Hyzer](https://github.com/Hyzerr)
  Author | Creator 
- 
-# Di recode 
- [![Romli](https://github.com/romlisuhanda.png?size=200)](https://github.com/romlisuhanda) 
-----|----
-[Romli](https://github.com/romlisuhanda)
 
 ### Hyzer Statistics
 
