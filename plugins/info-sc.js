@@ -12,9 +12,10 @@ let esce = `
 Hai ${ye} Lagi Nyari Sc Ya? 
 
 Sc Ori By Hizer Official :
+_Thanks Hyzer Official_
 https://youtu.be/AXPzjQ5jxx8
 
-Sc Recode By Romli:
+Sc Recode By Romli :
 https://wa.me/6281322667077
 
 _ZxyuuBotz_`
