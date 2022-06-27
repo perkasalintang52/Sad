@@ -6,7 +6,6 @@ let handler = async(m, { text }) => {
 ┆ *Nama* : ${conn.getName(m.sender)}
 ┆ *Alasan* : ${text ? '' + text : ''}
 ╰┅────★`)
-conn.sendbut(m.reply, "*Jngn Ganggu Dia Lagi Afk*", 'ZxyuuBotz', 'Jangan Ganggu', 'ok', m)
 }
 handler.help = ['afk [alasan]']
 handler.tags = ['main']
