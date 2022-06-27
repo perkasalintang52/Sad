@@ -2,7 +2,7 @@ let handler = m => m
 handler.before = m => {
     let user = global.db.data.users[m.sender]
     if (user.afk > -1) {
-        m.reply(`╭──[ *BERHENTI AFK !* ]──✧
+        m.reply(`╭──[ *LU BERHENTI AFK !* ]──✧
 ┆ *Alasan* : ${user.afkReason ? '' + user.afkReason : ''}
 ┆ *Time* : ${clockString(new Date - user.afk)}
 ╰┅────★`.trim())
@@ -16,7 +16,7 @@ handler.before = m => {
         let afkTime = user.afk
         if (!afkTime || afkTime < 0) continue
         let reason = user.afkReason || ''
-        m.reply(`╭──[ *JANGAN TAG DIA!* ]──✧
+        m.reply(`╭──[ *JANGAN TAG DIA COK!* ]──✧
 ┆ ${reason ? '*Alasan* : ' + reason : 'Tanpa Alasan'}
 ┆ *Time* : ${clockString(new Date - afkTime)}
 ╰┅────★`.trim())
