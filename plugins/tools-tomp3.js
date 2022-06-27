@@ -1,5 +1,5 @@
 const { toPTT } = require('../lib/converter')
-const { MessageType } = require('@adiwajshing/baileys-md')
+const { MessageType } = require('@adiwajshing/baileys')
 
 let handler = async (m, { conn, usedPrefix, command }) => {
   let q = m.quoted ? m.quoted : m
@@ -8,8 +8,8 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   let media = await q.download()
   let audio = await toPTT(media, 'mp4')
  
- conn.sendFile(m.chat, audio,  0,0,m,true, {ptt:true })
-//conn.sendMessage(m.chat, {audio:audio}, {
+//conn.sendFile(m.chat, audio,  0,0,m,true, {ptt:true })
+ conn.sendMessage(m.chat, {audio:audio}, {
     quoted: m,
     ptt: true
   })
