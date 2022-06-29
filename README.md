@@ -3,6 +3,7 @@
 
 </p>
 <h1 align="center">Thanks Hyzer Official</h1>
+[![Rozi](https://img.shields.io/badge/Romli-25D366?style=for-the-badge&logo=Romli&logoColor=white)](https://wa.me/6285828764046)
 
 >
 >
