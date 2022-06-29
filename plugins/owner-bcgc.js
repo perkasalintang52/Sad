@@ -13,9 +13,9 @@ let handler = async (m, { conn, isROwner, text }) => {
     }
   m.reply(`Sukses Mengirim Broadcast Ke ${anu.length} Group`)
 }
-handler.help = ['bcgcbot <teks>']
+handler.help = ['bcgc <teks>']
 handler.tags = ['owner']
-handler.command = /^((broadcastgc|bcgc)bot)$/i
+handler.command = /^((broadcastgc|bcgc))$/i
 
 handler.owner = true
 
