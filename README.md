@@ -3,8 +3,6 @@
 
 </p>
 <h1 align="center">Thanks Hyzer Official</h1>
-[![Rozi](https://img.shields.io/badge/Romli-25D366?style=for-the-badge&logo=Romli&logoColor=white)](https://wa.me/6285828764046)
-
 >
 >
 >
@@ -14,6 +12,7 @@
   <a href="https://chat.whatsapp.com/K9vsKm2jDga8ATZEcfpEGA"><img title="Group" src="https://img.shields.io/badge/Group%20ZxyuuRomm-Masuk-brightgreen.svg?style=for-the-badge&logo=whatsapp" /></a>
   <a href="https://wa.me/6281224804625?text=.menu"><img title="Bot" src="https://img.shields.io/badge/Whatsapp%20Bot-Bot%20nya-yellowgreen.svg?style=for-the-badge&logo=whatsapp" /></a>
   <a href="https://wa.me/6281322667077?text=Hallo+Banh"><img title="Whatsapp" src="https://img.shields.io/badge/whatsapp-Owner-red.svg?style=for-the-badge&logo=whatsapp" /></a>
+  <a href="https://wa.me/6287892711054"><img title="Whatsapp" src="https://img.shields.io/badge/whatsapp-Hyzer-brightgreen.svg?style=for-the-badge&logo=whatsapp" /></a>
   <a href="https://youtube.com/channel/UCKS7JmlNAKHawXYpC6VhXSQ"><img title="Youtube" src="https://img.shields.io/badge/Youtube-Subscribe%20ajg-red.svg?style=for-the-badge&logo=youtube" /></a>
   <h4 align="center">
   <a
