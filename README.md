@@ -11,6 +11,7 @@
 </div>
 <p align="center">
   <a href="https://github.com/romlisuhanda"><img title="GitHub" src="https://img.shields.io/badge/Github-Romli-brightgreen.svg?style=for-the-badge&logo=github" /></a>
+  <a href="https://wa.me/6287892711054"><img title="Whatsapp" src="https://img.shields.io/badge/whatsapp-Hyzer-brightgreen.svg?style=for-the-badge&logo=whatsapp" /></a>
   <a href="https://chat.whatsapp.com/K9vsKm2jDga8ATZEcfpEGA"><img title="Group" src="https://img.shields.io/badge/Group%20ZxyuuRomm-Masuk-brightgreen.svg?style=for-the-badge&logo=whatsapp" /></a>
   <a href="https://wa.me/6281224804625?text=.menu"><img title="Bot" src="https://img.shields.io/badge/Whatsapp%20Bot-Bot%20nya-yellowgreen.svg?style=for-the-badge&logo=whatsapp" /></a>
   <a href="https://wa.me/6281322667077?text=Hallo+Banh"><img title="Whatsapp" src="https://img.shields.io/badge/whatsapp-Owner-red.svg?style=for-the-badge&logo=whatsapp" /></a>
