@@ -11,6 +11,8 @@ if (!args[0]) throw 'Contoh penggunaan:\n\n*.emojimix 🐷&😣*'
 		    await fs.unlinkSync(encmedia)
 		}
 }
+
+
 handler.help = ['emojimix'].map(v => v + ' emot1|emot2>')
 handler.tags = ['fun']
 handler.command = /^(emojimix)$/i
