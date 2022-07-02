@@ -2,12 +2,12 @@ let handler = async (m, { conn }) => {
     let _uptime = process.uptime() * 1000
     let uptime = clockString(_uptime)
 let romli = 'https://telegra.ph/file/90ee0749ca9ad18422dc6.jpg'
-let zxyuu = '
+m.reply= `
 ┌─〔 R U N T I M E 〕
 ├ Bot Aktif Selama ${uptime}
 └────
-    '
-conn.send2ButtonImg(m.reply, romli, zxyuu, wm, 'Menu', '.menu', 'Owner', '.owner', m)
+    `
+/*conn.send2ButtonImg(m.reply, romli, zxyuu, wm, 'Menu', '.menu', 'Owner', '.owner', m)*/
 }
 handler.help = ['runtime']
 handler.tags = ['info']
