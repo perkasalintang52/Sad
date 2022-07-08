@@ -1,23 +1,23 @@
 //=============『 Utama 』================== //
-global.owner = ['6281322667077', '6281215710461'] 
+global.owner = ['6281322577123', '6281322577123'] 
 global.mods = [] 
-global.prems = ['6281215710461', '6281322667077'] 
+global.prems = ['6281322577123', '6281322577123'] 
 
 //=============『 Info Owner 』============== //
-global.nameowner = 'ZxyuuRomm'
-global.nameowner2 = 'XzyuuNaii'
-global.numberowner = '6281322667077'
-global.numberowner2 = '6281215710461'
-global.instagram = 'https://instagram.com/Naiichnz'
-global.github = 'https://github.com/romlisuhanda'
-global.dana = '081322667077'
-global.pulsa = '081215710461'
+global.nameowner = 'Lintang'
+global.nameowner2 = 'Lintang'
+global.numberowner = '6281322577123'
+global.numberowner2 = '6281322577123'
+global.instagram = 'https://instagram.com/joceylintangg'
+global.github = 'https://tiktok.com/@joceylintangg'
+global.dana = '081322577123'
+global.pulsa = '081322577123'
 global.gopay = '-'
 
 //=============『 Info Bot 』=================//
-global.namebot = 'Z X Y U U B O T Z - MD'
-global.gc = 'https://chat.whatsapp.com/K9vsKm2jDga8ATZEcfpEGA'
-global.web = 'https://zxyuuromm2.romlisuhanda040.repl.co/' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
+global.namebot = 'SadBoy Botz'
+global.gc = 'https://tiktok.com/@joceylintangg'
+global.web = 'https://instagram.com/joceylintangg' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 global.price1 = '1 bulan = 10.000\n2 Minggu 7.000\n1 Minggu 5.000'
 
 //=======『 Tampilan Dan Lainnya 』============//
@@ -25,10 +25,10 @@ global.fotonya1 = 'https://telegra.ph/file/a233720fe5119e6275ae7.jpg' //ganti ja
 global.fotonya2 = 'https://telegra.ph/file/a233720fe5119e6275ae7.jpg' //ini juga ganti 
 global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
-global.wm = 'Z X Y U U B O T Z - Md'
+global.wm = 'SadBoy Botz'
 global.watermark = wm
-global.wm2 = '                               「 Xzyuu Naii⁩ 」'
-global.wm3 = '⫹⫺ Zxyuu Botz'
+global.wm2 = '                               「 SadBoy Botz⁩ 」'
+global.wm3 = '⫹⫺ SadBoy Botz'
 global.htki = '––––––『' 
 global.htka = '』––––––'
 global.media = 'https://telegra.ph/file/a233720fe5119e6275ae7.jpg'
@@ -39,7 +39,7 @@ global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
 global.stiker_wait = 'Stiker sedang dibuat'
 global.packname = ''
-global.author = '© 2022 Zxyuu - Xzyuu'
+global.author = '© 2022 SadBoy Botz - Lintang'
 
 //=============『 Apikey 』================== //
 global.APIs = { // API Prefix
