@@ -9,8 +9,9 @@ let anu = `Hai 👋
 Kalian bisa mendukung saya agar bot ini tetap up to date dengan:
 ┌〔 Donasi • Emoney 〕
 ├ Dana : ${dana}
-├ Pulsa : 081224804615
-├ pulsa : 081215710461
+├ Pulsa : 081322577123
+├ pulsa : 081322577123
+├ saweria : https://saweria.co/joceylintangg
 └────
 Berapapun donasi kalian akan sangat berarti 👍
 
